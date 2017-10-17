@@ -59,7 +59,7 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 
   // Transform current state into polar to match the incoming measurement
   double rho = sqrt(x_(0)*x_(0) + x_(1)*x_(1));
-  double theta = atan(x_(1) / x_(0));
+  double theta = atan2(x_(1) / x_(0));
   double rho_dot = (x_(0)*x_(2) + x_(1)*x_(3)) / rho;
   VectorXd x = VectorXd(3); // h(x_)
   x << rho, theta, rho_dot;
