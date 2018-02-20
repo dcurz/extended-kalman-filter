@@ -17,6 +17,8 @@ An extended kalman filter is used to interpret noisy lidar and radar measurement
 
 This project was completed as an assignment for Udacity's Self Driving Car Nano Degree [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive).
 
+This project began with the starter code provided [here](https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project.git)
+
 
 Contents and Code Structure (All in src)
 ---
